@@ -1,0 +1,98 @@
+body{
+    background-image:url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgba(224, 59, 38, 0.808);
+    color:white;
+    border-radius: 15px;
+    padding: 05px auto;
+    font-family:sans-serif, verdana;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    font-family:sans-serif, verdana;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.navbar a:hover{
+    background-color: #0000;
+}
+
+.active{
+    background-color: #04AA6D;
+}
+
+main{
+    box-sizing: border-box;
+    background-color: lightcoral;
+    margin: 10px;
+    float:left;
+    text-align: center;
+    width: 100%;
+          
+}
+
+.contenedor{
+    box-sizing: content-box;
+    border-bottom:solid 05px lightslategrey; 
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+.carousel img{
+  margin: 18px;
+  border: 05px solid black;
+  border-radius: 80%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
